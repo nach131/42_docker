@@ -35,28 +35,32 @@ Para tener persisrencia de las imagenes y los contenedores es necesario copiar l
 
 	cp /Users/<User_42>/Library/Containers/com.docker.docker/Data sgoinfre/Perso/<User_42>/Docker/
 
-## Borrar ***Data*** Docker
+## Borrar ***"Data"*** Docker
 
 Nesecitasmos borrar la carpeta ***Data*** de origen para poder realizar el enlance a nuestra carpeta personal ***Data*** copiada con anterioridad en ***sgoinfre***
 
 	rm -rf /Users/<User_42>/Library/Containers/com.docker.docker/Data
 
-Hacer ln
+## Hacer enlace simbolico
+
 	ln -s sgoinfre/Perso/<User_42>/Docker/ Data
 
 coprobar 
 
 	ls -la
 
-Iniciar Docker
+## Iniciar Docker
 
 Se ejecuta correctamente
 
-asignar directorio para container de intercambio
+## Asignar directorio para container de intercambio
 
 
 
 ## Iniciar Docker
 
 **Nota**
-	No tocar nada hasta que 
+	Al iniciarse Docker es importante no hacer click, hasta que el mensaje de "Docker Desktop stating" desapareza.
+
+<img src="./images/DockerStarting.png" width="250">
+
