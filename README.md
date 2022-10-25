@@ -1,6 +1,6 @@
 # 42_docker
 
-Configuración docker entorno 42 Barcelona
+## Configuración docker entorno 42 Barcelona
 
 Comprobar espacio usuario
 
@@ -26,9 +26,12 @@ Salir sesión mac
 
 Instalar Docker desde **"Manager Software Centre"**
 
-Copiar la carpeta Data en sgoinfre/Perso/<User_42>/Docker/
+## Copiar ***"Data"*** Docker
 
-/Users/<User_42>/Library/Containers/com.docker.docker/Data
+Para tener la persisrencia de las imagenes y los contenedores es necesario copiar la carpeta ***Data*** a la unidad personal que disponemos en ***<sgoinfre>***
+
+
+`/Users/<User_42>/Library/Containers/com.docker.docker/Data`
 
 	cp /Users/<User_42>/Library/Containers/com.docker.docker/Data sgoinfre/Perso/<User_42>/Docker/
 
