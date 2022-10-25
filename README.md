@@ -28,14 +28,17 @@ Instalar Docker desde **"Manager Software Centre"**
 
 ## Copiar ***"Data"*** Docker
 
-Para tener la persisrencia de las imagenes y los contenedores es necesario copiar la carpeta ***Data*** a la unidad personal que disponemos en ***<sgoinfre>***
+Para tener persisrencia de las imagenes y los contenedores es necesario copiar la carpeta ***Data*** a la unidad personal que disponemos en ***sgoinfre***
 
 
 `/Users/<User_42>/Library/Containers/com.docker.docker/Data`
 
 	cp /Users/<User_42>/Library/Containers/com.docker.docker/Data sgoinfre/Perso/<User_42>/Docker/
 
-Borrar /Users/<User_42>/Library/Containers/com.docker.docker/Data
+## Borrar ***Data*** Docker
+
+Nesecitasmos borrar la carpeta ***Data*** de origen para poder realizar el enlance a nuestra carpeta personal ***Data*** copiada con anterioridad en ***sgoinfre***
+
 	rm -rf /Users/<User_42>/Library/Containers/com.docker.docker/Data
 
 Hacer ln
