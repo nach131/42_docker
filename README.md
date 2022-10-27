@@ -70,7 +70,7 @@ Añadir una carpeta dentro de la unidad personal de ***sgoinfre*** donde estaran
 ## Iniciar Docker
 
 **Nota**
-	Al iniciarse Docker es importante no hacer click, hasta que el mensaje de "Docker Desktop stating" desapareza.
+	Al iniciarse Docker es importante no hacer click, hasta que el mensaje de "Docker Desktop starting" desapareza.
 
 <img src="./images/DockerStarting.png" width="250">
 
