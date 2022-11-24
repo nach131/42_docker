@@ -28,7 +28,7 @@ Instalar Docker desde **"Manager Software Centre"**
 
 ## Copiar ***"Data"*** Docker
 
-Para tener persisrencia de las imagenes, los contenedores y los volumenes es necesario copiar la carpeta ***Data*** a la unidad personal que disponemos en ***sgoinfre***
+Para tener persistencia de las imagenes, los contenedores y los volumenes es necesario copiar la carpeta ***Data*** a la unidad personal que disponemos en ***sgoinfre***
 
 
 `/Users/<User_42>/Library/Containers/com.docker.docker/Data`
@@ -37,7 +37,7 @@ Para tener persisrencia de las imagenes, los contenedores y los volumenes es nec
 
 ## Borrar ***"Data"*** Docker
 
-Nesecitasmos borrar la carpeta ***Data*** de origen para poder realizar el enlance a nuestra carpeta personal ***Data*** copiada con anterioridad en ***sgoinfre***
+Es necesario borrar la carpeta ***Data*** de origen para poder realizar el enlance a nuestra carpeta personal ***Data*** copiada con anterioridad en ***sgoinfre***
 
 	rm -rf /Users/<User_42>/Library/Containers/com.docker.docker/Data
 
@@ -45,7 +45,7 @@ Nesecitasmos borrar la carpeta ***Data*** de origen para poder realizar el enlan
 
 	ln -s sgoinfre/Perso/<User_42>/Docker/ Data
 
-coprobar 
+comprobar 
 
 	ls -la
 
@@ -53,8 +53,7 @@ coprobar
 
 Se ejecuta correctamente ...!!!
 
-## Asignar directorio para container de intercambio
-
+## Asignar directorio para los containers de intercambio
 
 ***Settings*** Docker
 
@@ -65,7 +64,6 @@ Docker ***Resources***, **File Sharing**
 Añadir una carpeta dentro de la unidad personal de ***sgoinfre*** donde estaran los datos compartidos entre los contenedores de Docker y el host main.
 
 <img src="./images/DockerResources.png" width="500">
-
 
 ## Iniciar Docker
 
